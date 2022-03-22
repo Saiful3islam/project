@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.blog-item p{
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.blog-item:last-child p{
+    margin-bottom: 55px;
+}
+.blog-item span{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+color: red;
+text-decoration: underline;
+}
+img{
+    max-width: 100%;
+}
+.fixed-width{
+    width: 1500px;
+    margin: auto;
+}
+.header{
+    background: rgb(255, 0, 0);
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: -5px;
+    
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 61px;
+    line-height: 63px;
+    border-left: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.menu ul li:last-child a{
+    border-right: 1px solid #fff;
+}
+.menu ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+.banner{
+    background: url(./banner2.jpg) no-repeat;
+    padding: 400px 0;
+    background-size: cover;
+    background-position: center;
+}
+.inner h1{
+   color: #fff; 
+
+}
+.inner p{
+color: #fff;
+text-transform: capitalize;
+}
+.about{
+margin-top: 100px;
+
+
+}
+.about h2{
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+display: inline-block;
+padding: 10px;
+border-radius: 10px;
+margin-top: 100px;
+}
+.about p{
+max-width: 800px;
+margin: auto;
+background-color: #40407a;
+margin-top: 20px;
+border-radius: 5px;
+box-shadow: 1px 1px 5px black;
+color: #fff;
+}
+.service{
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    box-shadow: 1px 1px 5px black;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.service-item span{
+    color: red;
+    font-size: 50px;
+}
+.service-item h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.our{
+    
+}
+.our h1{
+    
+    color: red;
+    text-transform: uppercase;
+    
+display: inline-block;
+margin-bottom: 50px;
+}
+.our h1::after{
+    content: "\f063";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: black;
+    display: inline-block;
+    margin-left:10px ;
+}
+.our h1::before{
+    content: "\f063";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: black;
+    display: inline-block;
+    margin-right: 10px;
+}
+.blog-item{
+    float: right;
+    width: 30.0%;
+    margin-left: 20px ;
+    box-shadow: 1px 1px 5px black;
+    
+}
+
+
+
+.blog-item img{
+    
+    width: 400px;
+    margin-bottom: 20px;
+   
+    
+    
+
+}
+.blog-item:nth-child(1) img{
+    width: 600px;
+}
+.blog-item:nth-child(3) img{
+
+}
+.blog-item:nth-child(2) img{
+    width: 600px;
+}
+.margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blog-item h3{
+    text-align: justify;
+
+}
+.blog{
+    margin-bottom: 100px;
+    margin-left: -200px;
+}
+.blog-item h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 170);
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.blog-item h2{
+   text-transform: capitalize;
+   box-shadow: 1px 1px 5px gray;
+   display: inline-block;
+   margin-left: 10px;
+   background-color: rgb(255, 102, 102);
+   color: #fff;
+   padding: 5px 20px;
+   border-radius: 5px;
+}
+.blog-item h4{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.footer{
+background-color: #40407a;
+}
+.copy{
+    float: right;
+    width: 50%;
+
+}
+.copy h5{
+color: #fff;
+font-size: 20px;
+text-transform: capitalize;
+margin-left: 300px;
+margin-top: 40px;
+}
+.social{
+    float: left;
+    width: 50%;
+}
+.social ul{
+    margin-bottom: 100px;
+}
+.social ul li{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.social ul li a{
+    display: block;
+    color: rgb(255, 0, 234);
+    font-size: 30px;
+    padding: 20px;
+    line-height: 100%;
+    transition: .5s;
+}
+.social ul li a:hover{
+    background-color: #ff00ea;
+    color: #fff;
+    border-radius: 50%;
+
+}
+.social h1{
+    color: #fff;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
